@@ -29,3 +29,10 @@ pip install -r requirements.txt
 ```
 
 3. Open the `notebooks/` directory to review the analysis pipeline.
+
+## ⚠️ Known Limitations & Future Work
+Although the econometric models successfully identified key pricing drivers while passing rigorous statistical tests, the research acknowledges the following boundaries:
+
+* **Sample Size Constraints:** The empirical analysis is localized to 33 construction enterprises over a 5-year period. Future research will expand the dataset across multiple sectors and extended timeframes (spanning multiple economic cycles) to verify the cross-sectional robustness of the identified factors.
+* **Data Frequency Limitations:** Panel data models relying on low-frequency (annual/quarterly) fundamental metrics cannot capture short-term market microstructure dynamics or sudden liquidity shocks.
+* **Non-Linear Relationships:** OLS and Panel models assume linear relationships. Future studies will explore machine learning techniques to capture non-linear and interactive effects between macroeconomic variables and stock prices.
